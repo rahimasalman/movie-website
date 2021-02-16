@@ -332,7 +332,7 @@ nav .menu-btn{
 }
 @media(max-width:680px){
     .showcase-box{
-        max-width: 320px;
+        max-width: 350px;
         height: 180px;
         margin: 8px;
     }
