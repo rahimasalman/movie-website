@@ -330,9 +330,9 @@ nav .menu-btn{
         display: block;
     }
 }
-@media(max-width:680px){
+@media(min-width:440px) and (max-width:680px){
     .showcase-box{
-        max-width: 350px;
+        max-width: 320px;
         height: 180px;
         margin: 8px;
     }
@@ -355,7 +355,7 @@ nav .menu-btn{
     }
 }
 @media(max-width:440px){
-    .movies-box a, .movies-box{
+    .movies-box, .movies-box a{
         width:100% ;
     }
     .movies-box{
@@ -367,5 +367,14 @@ nav .menu-btn{
     .search{
         width: 90%;
         height: 40px;
+    }
+    .showcase-box{
+        max-width: 400px;
+        height: 200px;
+        margin: 20px;
+    }
+    .latest-box{
+        width: 200px;
+        margin: 20px 8px;
     }
 }
