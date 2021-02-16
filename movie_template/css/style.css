@@ -377,4 +377,9 @@ nav .menu-btn{
         width: 200px;
         margin: 20px 8px;
     }
+    footer{
+        justify-content: space-between;
+        padding:0px 40px;
+        text-align: center;
+    }
 }
